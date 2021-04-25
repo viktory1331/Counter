@@ -23,7 +23,7 @@ function App() {
     <div className={'Counter'}>
       <div className={'AppContainer'}>
         <Counter count={count} />
-        <Buttons incValue={incValue} resetValue={resetValue} />
+        <Buttons count={count} incValue={incValue} resetValue={resetValue} />
       </div>
     </div>
   );
