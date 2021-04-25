@@ -41,6 +41,10 @@
   border-radius: 5px;
 }
 
+.Button:disabled {
+  background-color: #a0bda0;
+}
+
 .value {
   display: flex;
   justify-content: center;
