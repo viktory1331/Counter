@@ -25,6 +25,7 @@ export function Buttons(props: ButtonsPropsType) {
       >
         reset
       </button>
+      <button className={'Button'}>set</button>
     </div>
   );
 }
