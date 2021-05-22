@@ -23,7 +23,7 @@ export function Buttons(props: ButtonsPropsType) {
         onClick={props.resetValue}
         disabled={props.count === 0 ? true : false}
       >
-        rest
+        reset
       </button>
     </div>
   );
